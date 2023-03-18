@@ -1,0 +1,244 @@
+@font-face {
+    font-family: LiberationMono-Regular;
+    src: url(LiberationMono-Bold.ttf), url(LiberationMono-BoldItalic.ttf), url(LiberationMono-Italic.ttf), url(LiberationMono-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+#newfont{
+    font-family: 'LiberationMono';
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    margin: 0 auto;
+    max-width: 1920px;
+    font-family: LiberationMono;
+}
+.alignfull{
+    margin: 0 auto;
+    max-width: 1920px;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+#header{
+    background-color: #8C765E;
+    width: 100%;
+    height: 170px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo{
+    width: 170px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    height: 30px;
+}
+.vhod{
+    color: black;
+    font-family: 'Lucida Sans';
+    font-size: 36px;
+    transition: 0.3s ease-in;
+    line-height: 40px;
+}
+.vhod:hover{
+    border-bottom: 3px solid white;
+}
+.menu{
+    color: black;
+    font-family: 'Lucida Sans';
+    font-size: 36px;
+    transition: 0.3s ease-in;
+    line-height: 20px;
+}
+.menu:hover{
+    border-bottom: 3px solid white;
+}
+.head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#mainbanner{
+    width: 100%;
+    height: 800px;
+    background-image: url(img/fon.png);
+    display: flex;
+    
+}
+.slogan{
+    width: 80%;
+    padding-top: 5%;
+    color: black;
+    font-family: 'Lucida Sans';
+    font-size: 52px;
+    font-weight: 400;
+    text-align: center;
+}
+.podrob{
+    height: 100px;
+    width: 400px;
+    background-color: #8C765E;
+    font-family: 'Lucida Sans';
+    font-size: 38px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    transition: 0.2s ease-in;
+}
+.podrob:hover{
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.76);
+}
+#advantages{
+    width: 100%;
+    height: 300px;
+    background-color: #a08c76;
+}
+.title{
+    font-family: 'Lucida Sans';
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 3%;
+}
+.text{
+    font-family: 'Lucida Sans';
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+}
+#project{
+    width: 100%;
+    height: 850px;
+}
+.cartina{
+    width: 100%;
+}
+.proect{
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    border: 2px solid rgba(0, 0, 0, 0.164);
+    width: 30%;
+    box-shadow: 24px 16px 31px -7px rgb(34 60 80 / 20%);
+}
+.text1{
+    font-family: 'Lucida Sans';
+    font-size: 24px;
+    color: black;
+}
+.money{
+    display: flex;
+    justify-content: space-between;
+}
+.sbor{
+    font-family: 'Lucida Sans';
+    font-size: 24px;
+    color: black;
+}
+.slim{
+    width: 40%;
+    font-family: 'Lucida Sans';
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.644);
+}
+#info{
+    width: 100%;
+    height: 1300px;
+    padding-top: 7%;
+}
+.kraund{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-side{
+    width: 45%;
+    font-family: 'Lucida Sans';
+    font-size: 28px;
+    color: black;
+}
+.right-side{
+    width: 45%;
+}
+.left-side1{
+    width: 45%;
+}
+.right-side1{
+    width: 45%;
+    font-family: 'Lucida Sans';
+    font-size: 28px;
+    color: black;
+}
+#numbers{
+    width: 100%;
+    background-color: #a1907d;
+    height: 400px;
+}
+.jir1{
+    width: 100%;
+    font-family: 'Lucida Sans';
+    font-size: 32px;
+    text-align: center;
+}
+.slim1{
+    width: 100%;
+    font-family: 'Lucida Sans';
+    font-size: 28px;
+    color: rgba(0, 0, 0, 0.781);
+    text-align: center;
+}
+.cifri{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5%;
+}
+.blok{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 170px;
+    background-color: rgba(255, 255, 255, 0.315);
+    border-radius: 12px;
+    border: 5px solid #00000042;
+    box-shadow: 24px 16px 31px -7px rgba(0, 0, 0, 0.2);
+}
+#footer{
+    background-color: rgba(0, 0, 0, 0.123);
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.title1{
+    font-family: 'Lucida Sans';
+    font-size: 42px;
+}
+.da{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.podrobnee{
+    font-size: 24px;
+    font-family: 'Lucida Sans';
+}
+
+
